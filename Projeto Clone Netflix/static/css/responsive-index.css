@@ -1,0 +1,64 @@
+/* RESPONSIVENESS OF THE INDEX PAGE*/
+
+@media(max-width: 700px){
+    header nav{
+        display: none;
+    }
+    .nav-bar{
+        display: block;
+    }
+
+    .btn-menu{
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        outline: none;
+        border: 0;
+    }
+   
+
+   
+}
+
+@media(max-width: 480px){
+    .itens-bar a{
+        font-size: 1.5rem;
+    }
+
+    .title{
+        font-size: 30px;
+        
+    }
+    
+    .conteiner-main .description{
+        
+        max-width: 80%;
+        text-align: initial;
+        font-size: 1.8rem;
+    }
+    .botoes{
+        flex-direction: column;
+        
+    }
+
+    .btn{
+        margin-bottom: 10px;
+    }
+    
+    .carousel {
+        width: 80%;
+    }
+}
+
+@media(min-width: 1400px){
+    header nav a{
+        font-size: 2.2rem;
+    }
+    .btn{
+        font-size: 2rem;
+        width: 250px;
+    }
+}
